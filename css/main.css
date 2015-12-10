@@ -1,0 +1,63 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	flex-wrap: flex-wrap;
+	width: 100%;
+	margin: 10px;
+}
+
+img {
+	max-width: 100%;
+}
+
+h2 {
+	margin: 5px;
+}
+
+.logo {
+	width: 10%;
+}
+
+.nameplate {
+	text-align: right;
+	width: 90%;
+	margin: 0px;
+}
+
+.splash {
+	width: calc(100% - 20px);
+	margin-bottom: 10px;
+}
+
+.splash-image {
+	width: 100%;
+	margin: 10px;
+}
+
+.collection {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 100%;
+	text-align: center;
+	margin: 10px;
+}
+
+.project {
+	width: 320px;
+	max-width: 100%;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
+
+.links {
+	text-align: center;
+}
