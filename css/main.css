@@ -2,6 +2,11 @@
 	box-sizing: border-box;
 }
 
+body {
+	font-family: 'Lato', sans-serif;
+	margin: 15px;
+}
+
 header {
 	display: flex;
 	flex-wrap: flex-wrap;
@@ -14,6 +19,14 @@ img {
 }
 
 h2 {
+	font-size: 2em;
+}
+
+#featured-work-header {
+	text-align: center;
+}
+
+h3 {
 	margin: 5px;
 }
 
@@ -51,6 +64,7 @@ h2 {
 }
 
 footer {
+	margin-top: 20px;
 	display: flex;
 	justify-content: center;
 }
